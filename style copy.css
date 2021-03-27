@@ -36,15 +36,18 @@
 
   .AboutSection
   {
-	width: 200px;
-	height: 120px;
+	float: right;
+	padding-bottom: 5%;
+	display: flex;
+	align-items:center;
   }
 
   .AboutPhotos
   {
-	  float: right;
-	  width: 100%;
+	  width: 40%;
 	  height: auto;
+	  object-fit: cover;
+	  margin-left: 2%;
   }
 
   #menu
@@ -66,17 +69,16 @@
     color: white;
 }
 
-.About
+.Container
 {
 	text-align: center;
 	font-family: 'Arial', Helvetica, sans-serif;
 	margin-right: 2%;
 	margin-left: 2%;
-	margin-bottom: 10%;
 
 }
 
-.About>.row {
+.Pictures>.row {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(1, 30vw);
@@ -95,8 +97,14 @@
 	clear: both;
 }
 
+.Break
+{
+	padding-bottom: 5%;
+}
+
 body
 {
 	background-color: #e0fbfc;
 }
+
 
