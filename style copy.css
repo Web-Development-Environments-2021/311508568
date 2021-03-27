@@ -37,14 +37,15 @@
   .AboutSection
   {
 	float: right;
-	padding-bottom: 5%;
+	padding-bottom: 10%;
 	display: flex;
 	align-items:center;
+	text-align: right;
   }
 
   .AboutPhotos
   {
-	  width: 40%;
+	  width: 30%;
 	  height: auto;
 	  object-fit: cover;
 	  margin-left: 2%;
