@@ -1,5 +1,5 @@
 .dropbtn {
-	background-color: #618db6;
+	background-color: #293241;
 	color: white;
 	padding: 16px;
 	font-size: 16px;
@@ -32,26 +32,19 @@
   
   .dropdown:hover .dropdown-content {display: block;}
   
-  .dropdown:hover .dropbtn {background-color: #73a7d8;}
+  .dropbtn:hover {background-color: #3D5A80;}
 
-  .column {
-	height: auto;
-	width: 50%;
-	float: left;
-	font-family: Arial, Helvetica, sans-serif;
-	padding-top: 20px;
-  }
-
-  .row::after {
-	content: "";
-	clear: both;
-	display: table;
-  }
-
-  .FamilyPhotos
+  .AboutSection
   {
-	  height: 300px;
-	  object-fit: contain;
+	width: 200px;
+	height: 120px;
+  }
+
+  .AboutPhotos
+  {
+	  float: right;
+	  width: 100%;
+	  height: auto;
   }
 
   #menu
@@ -66,9 +59,12 @@
 	font-family: 'Courier New', monospace;
 	font-weight: bold;
 	color: white;
-	background-color: #c8e3fd;
+	background-color: #e0fbfc;
 }
 
+.dropbtn a {
+    color: white;
+}
 
 .About
 {
@@ -80,8 +76,27 @@
 
 }
 
+.About>.row {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, 30vw);
+    grid-gap: 5px;
+}
+
+.FamilyPhotos {
+    height: 80%;
+    width: 80%;
+    object-fit: cover;
+    border-radius: 20%;
+}
+
+.Music
+{
+	clear: both;
+}
+
 body
 {
-	background-color: #c8e3fd;
+	background-color: #e0fbfc;
 }
 
