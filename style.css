@@ -68,6 +68,8 @@
 {
 	float: right;
 	margin-left: 2%;
+	width: 20%;
+	height: auto;
 }
 
 .Container
@@ -76,6 +78,7 @@
 	font-family: 'Arial', Helvetica, sans-serif;
 	margin-right: 2%;
 	margin-left: 2%;
+	margin-bottom: 5%;
 }
 
 .Pictures>.row {
@@ -95,6 +98,13 @@
 .Music
 {
 	clear: both;
+}
+
+.fb-like
+{
+	border-color: darkblue;
+	border-style: solid;
+	padding: 2%;
 }
 
 .Break
