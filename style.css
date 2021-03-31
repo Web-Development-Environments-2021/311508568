@@ -122,8 +122,7 @@
 
 body
 {
-	background-color: #f4f8f1;
-	background-image: url(images/Background.jpg)
+	background: url(images/Background.jpg) left repeat-y, url(images/Background.jpg) right repeat-y, #f4f8f1;
 }
 
 
