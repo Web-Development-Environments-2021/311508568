@@ -36,12 +36,16 @@
 
 .dropbtn a {color: white;}
 
+.Logo
+{
+	vertical-align: middle;
+}
+
 #menu
 {
 	position: fixed;
 	width: 100%;
 	padding-top: 10px;
-	margin-top: -10px;
 	border-top: 10px;
 	padding-bottom: 10px;
 	text-align: center;
@@ -94,6 +98,8 @@
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(1, 30vw);
     grid-gap: 5px;
+	margin-left: 2%;
+	margin-right: 2%;
 }
 
 .FamilyPhotos {
@@ -123,8 +129,8 @@
 body
 {
 	background: url(images/Background.jpg) left repeat-y, url(images/Background.jpg) right repeat-y, #f4f8f1;
+	margin: 0;
 }
-
 
 
 
