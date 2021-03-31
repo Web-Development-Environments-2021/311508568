@@ -48,13 +48,16 @@
 	font-family: 'Courier New', monospace;
 	font-weight: bold;
 	color: white;
-	background-color: #e0fbfc;
+	background-color: #f4f8f1;
 }
 
 .AboutSection
 {
 	text-align: right;
 	vertical-align: middle;
+	margin-right: 15%;
+	margin-top: 2%;
+	margin-bottom: 2%;
 }
 
 .AboutSection::after
@@ -70,6 +73,11 @@
 	margin-left: 2%;
 	width: 20%;
 	height: auto;
+}
+
+.AboutText
+{
+	padding: 10%;
 }
 
 .Container
@@ -114,7 +122,10 @@
 
 body
 {
-	background-color: #e0fbfc;
+	background-color: #f4f8f1;
+	background-image: url(Images/Background.jpg);
 }
+
+
 
 
