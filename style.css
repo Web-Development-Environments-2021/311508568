@@ -55,6 +55,20 @@
 	background-color: #f4f8f1;
 }
 
+.TextBox
+{
+	background-color: #83B99D;
+	width: 60vw;
+    margin-left: auto;
+    margin-right: auto;	
+	padding-top: 1vh;
+    padding-bottom: 1vh;
+	margin-top: 30vh;
+	margin-bottom: 30vh;
+	border-style: double;
+	border-color: #608672;
+}
+
 .AboutSection
 {
 	text-align: right;
@@ -125,6 +139,64 @@
 {
 	padding-bottom: 5%;
 }
+
+.reference
+{
+	padding-top: 10vh;
+}
+
+#spa
+{
+	width: 60vw;
+    margin-left: auto;
+    margin-right: auto;	
+}
+
+.answers
+{
+	text-align: right;
+	padding-top: 1vh;
+}
+
+#headline
+{
+	text-decoration: underline;
+}
+
+.ContactForm
+{
+	width: 80vw;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+input[type=text], select, textarea
+{
+	width: 100%;
+	padding: 12px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+	margin-top: 6px;
+	margin-bottom: 16px;
+	resize: vertical;
+}
+
+
+input[type=submit] 
+{
+	background-color: #4CAF50;
+	color: white;
+	padding: 12px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+  }
+  
+  input[type=submit]:hover 
+  {
+	background-color: #45a049;
+  }
 
 body
 {
